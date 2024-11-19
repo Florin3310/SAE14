@@ -1,0 +1,27 @@
+body {
+    background-color: lightgray;
+    background-image: url('../IMG/image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 { background-color: white;
+    color: red;
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+h2 { background-image : url('../IMG/fondparchemin.png');
+    width: 100%;
+    max-width: 400px;
+    align
+    text-align: center;
+    background-size: 100% 100%;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
