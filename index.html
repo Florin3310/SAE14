@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Almendra&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/170d4d75ca.js" crossorigin="anonymous"></script>
     <title>Mon projet pour SAÉ14</title>
 </head>
 <body>
     <header>
         <h1 class="nom_logo">Nos saucissons de la Région</h1>
+        <div class="social">
+            /insérer/
+        </div>
         <div id="logo">
             <img src="IMG/logo.jpg" alt="Logo du site">
         </div>
@@ -17,28 +21,63 @@
 
     <div class="banner-container">
         <div class="banderolle">
-            <h1><span>Retrouvez</span> une grande variété de saucissons authentiques et délicieux!</h1>
+            <h1>
+                <span>Retrouvez</span> une grande variété de saucissons authentiques et délicieux pour les fêtes de fin d'année!
+            </h1>
         </div>
     </div>
 
+    <section id="presentation">
+        <h2>Le guide parfait pour impressioner vos invités lors des prochaines fêtes</h2>
+        <p>Que vous organisiez un apéritif convivial, un dîner raffiné ou un buffet gourmand, chaque détail compte pour faire de vos célébrations un moment inoubliable. Rien de tel qu'une sélection soignée de saucissons pour sublimer vos tables de fête ! Traditionnels, épicés, parfumés aux herbes ou même revisités en versions halal ou vegan, il y en a pour tous les goûts et toutes les occasions. Ce guide vous dévoile les incontournables pour surprendre vos convives : des classiques indémodables aux options innovantes, chaque saucisson raconte une histoire et promet une expérience gustative unique. Accompagnés de fromages affinés, de pains artisanaux et d'une sélection de boissons, ces produits sauront ravir petits et grands gourmets. Suivez nos recommandations pour composer des plateaux appétissants, découvrir des saveurs nouvelles et créer une ambiance chaleureuse qui marquera les esprits. Préparez-vous à épater vos invités grâce à des choix qui allient tradition, gourmandise et originalité ! Impressionnez vos convives et faites des prochaines fêtes un succès mémorable !</p>
+    </section>
+
     <section id="catalogue">
-        <h2>Nos saucissons</h2>
+        <h2>Nos propositions de saucissons</h2>
         <div class="grid-container">
-            <div class="product">
-                <img src="IMG/saucisson1.jpg" alt="Saucisson Traditionnel">
+            <div class="product" onclick="window.location.href='saucisson-traditionnel.html'">
+                <img src="IMG/saucisson trad.webp" alt="Saucisson Traditionnel">
                 <p>Saucisson Traditionnel</p>
             </div>
-            <div class="product">
-                <img src="IMG/saucisson2.jpg" alt="Saucisson au Poivre">
+            <div class="product" onclick="window.location.href='saucisson-poivre.html'">
+                <img src="IMG/saucisson au poivre.webp" alt="Saucisson au Poivre">
                 <p>Saucisson au Poivre</p>
             </div>
-            <div class="product">
-                <img src="IMG/saucisson3.jpg" alt="Saucisson aux Herbes">
+            <div class="product" onclick="window.location.href='saucisson-herbe.html'">
+                <img src="IMG/saucisson à l'herbe.webp" alt="Saucisson aux Herbes">
                 <p>Saucisson aux Herbes</p>
+            </div>
+            <div class="product" onclick="window.location.href='saucisson-sanglier.html'">
+                <img src="IMG/saucisson au sanglier.webp" alt="Saucisson aux Sanglier">
+                <p>Saucisson au sanglier</p>
+            </div>
+            <div class="product" onclick="window.location.href='saucisson-ail.html'">
+                <img src="IMG/saucisson à l'ail.webp" alt="Saucisson à L'ail">
+                <p>Saucisson à l'ail</p>
             </div>
         </div>
     </section>
-       
+    <section id="exotique">
+        <h2>Nos saucissons exotiques</h2>
+        <div class="grid-container">
+            <div class="product" onclick="window.location.href='saucisson-poulet.html'">
+                <img src="IMG/saucisson_au_poulet.webp" alt="Saucisson au poulet">
+                <p>Saucisson au poulet</p>
+            </div>
+            <div class="product" onclick="window.location.href='saucisson-vegan.html'">
+                <img src="IMG/saucisson_vegan.webp" alt="Saucisson vegan">
+                <p>Saucisson vegan</p>
+            </div>
+        </div>
+    </section>
+    <section id="secret">
+        <h2>Notre saucisson secret</h2>
+        <div class="grid-container">
+            <div class="product" onclick="window.location.href='saucisson-mystere.html'">
+                <img src="IMG/saucisson mystère.webp" alt="Saucisson secret">
+                <p>Saucisson secret</p>
+            </div>
+        </div>
     </section>
 </body>
 </html>
